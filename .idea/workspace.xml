@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d76994e-6606-4e64-8c72-95d2a672e35f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/FirstTask" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FirstTask" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FirstTask" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FirstTask/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FirstTask/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FirstTask/.idea/modules.xml" beforeDir="false" />
@@ -26,20 +24,19 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/FirstTask/src/LogReader.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FirstTask/src/LogType.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FirstTask/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FirstTask/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FirstTask/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FirstTask/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FirstTask/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FirstTask/FindLineClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FirstTask/LogLine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FirstTask/LogReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FirstTask/LogType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FirstTask/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstTask/getDuplicates.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -50,8 +47,34 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "history": [
+    {
+      "state": "OPEN",
+      "author": "HorbachovaE"
+    }
+  ],
+  "lastFilter": {
+    "state": "OPEN",
+    "author": "HorbachovaE"
+  }
+}]]></component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="2d257136-487c-4a52-9c63-4273f9f5077a" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="HorbachovaE" />
+        <option name="repository" value="Maven_logsProject" />
+      </RepoCoordinatesHolder>
+    </option>
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="2d257136-487c-4a52-9c63-4273f9f5077a" />
+        <option name="url" value="https://github.com/HorbachovaE/Maven_logsProject.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -85,10 +108,13 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FirstTask.Main" />
+  <component name="RunManager" selected="JUnit.getDuplicates">
+    <configuration name="getDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FirstTask.getDuplicates" />
       <module name="Maven_logsProject" />
       <extension name="coverage">
         <pattern>
@@ -100,9 +126,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="getDuplicates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Maven_logsProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FirstTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="FirstTask" />
+      <option name="MAIN_CLASS_NAME" value="FirstTask.getDuplicates" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="getDuplicates.getDuplicates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Maven_logsProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FirstTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="FirstTask" />
+      <option name="MAIN_CLASS_NAME" value="FirstTask.getDuplicates" />
+      <option name="METHOD_NAME" value="getDuplicates" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.getDuplicates" />
+        <item itemvalue="JUnit.getDuplicates.getDuplicates" />
+        <item itemvalue="Application.getDuplicates" />
       </list>
     </recent_temporary>
   </component>

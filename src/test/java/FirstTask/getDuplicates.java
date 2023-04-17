@@ -1,9 +1,12 @@
 package FirstTask;
 
-import java.lang.reflect.Type;
+import org.junit.Assert;
+import org.junit.Test;
+import org.testng.annotations.BeforeTest;
 
-public class Main {
-    public static void main(String[] args) throws Exception {
+public class getDuplicates {
+    @Test
+    public void getDuplicates() throws Exception {
         LogReader fileReader = new LogReader();
         var logLines = fileReader.ReadLogs();
         System.out.println(logLines.size());
@@ -14,8 +17,11 @@ public class Main {
         System.out.println("Duplicates found: " + duplicates.stream().count());
 
         for (LogLine duplicate:duplicates) {
-            System.out.println("Duplicate id: " + duplicate.Id + " " + duplicate.Type);
+           // System.out.println("Duplicate id: " + duplicate.Id + " " + duplicate.Type);
+            Assert.assertEquals("There are no duplicates: ", 0, duplicate.GetIdAndType().toString());
         }
+
+
 
     }
 }
