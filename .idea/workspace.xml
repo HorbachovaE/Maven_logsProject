@@ -4,25 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d76994e-6606-4e64-8c72-95d2a672e35f" name="Changes" comment="fixup! Test logic and Assert has been added">
+    <list default="true" id="5d76994e-6606-4e64-8c72-95d2a672e35f" name="Changes" comment="fixup! test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FirstTask" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FirstTask" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FirstTask/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FirstTask/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FirstTask/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FirstTask/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FirstTask/FirstTask.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FirstTask/data.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FirstTask/out/production/FirstTask/FindLineClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FirstTask/out/production/FirstTask/LogLine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FirstTask/out/production/FirstTask/LogReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FirstTask/out/production/FirstTask/LogType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FirstTask/out/production/FirstTask/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FirstTask/src/FindLineClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FirstTask/src/LogLine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FirstTask/src/LogReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FirstTask/src/LogType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FirstTask/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +19,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -178,6 +165,14 @@
       <option name="presentableId" value="Default" />
       <updated>1681670800520</updated>
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1681756595098</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681756595098</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,7 +191,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/develop" />
+                        <option value="develop" />
                       </list>
                     </value>
                   </entry>
@@ -229,11 +224,6 @@
         </entry>
       </map>
     </option>
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="69f505bb-f40d-44db-9f81-61e4930b2d1e" value="TOOL_WINDOW" />
-      </map>
-    </option>
     <option name="RECENT_FILTERS">
       <map>
         <entry key="Branch">
@@ -252,6 +242,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixup! Test logic and Assert has been added" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixup! Test logic and Assert has been added" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
